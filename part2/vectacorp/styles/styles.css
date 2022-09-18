@@ -1,0 +1,129 @@
+/* ALL PAGES */
+body
+{
+    width:960px;
+    margin-left:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    margin-top: 0px;
+}
+/* ALL PAGES */
+h2
+{
+    background-color:#dfe3e6;
+    color:#CC1C0D;
+    border-radius:8px;
+    border: 2px solid #929ca4;
+    padding-left: 10px;
+}
+/* ALL PAGES */
+a
+{
+    color: #CC1C0D;
+}
+
+/* HOME PAGE */
+body ul
+{
+    padding-left: 5px;
+    list-style-type: none;
+}
+/* HOME PAGE */
+p>img
+{
+    float:left;
+    margin-top: 15px;
+    margin-right:15px;
+   
+    
+}
+/*ABOUT US PAGE */
+section>img
+{
+    margin-top: 7px;
+}
+ /* SOLUTIONS PAGE */
+ li ul:first-of-type
+ {
+      padding-left: 40px;
+ }
+ /* SOLUTIONS PAGE */
+p~ul
+{
+    list-style-type: disc;
+    padding-left:40px;
+}
+
+/* PRICING PAGE */
+section >img
+{ 
+    float:left;
+    border-radius: 45%;
+    border: 1px solid red;
+    margin-right:15px;
+    /* margin-bottom: 100000px; */
+}
+/* PRICING PAGE */
+section.pricing div{
+    border:2px solid #929ca4;
+    float:left;
+    width:220px;
+    height:280 px;
+    border-radius: 15px;
+    margin-right:5px;
+    text-align:center;
+    padding: 15px 0px 0px 0px;
+    
+}
+/* PRICING PAGE */
+/* .pricing  div >h3 {
+    border-top: 10px solid;
+    margin-bottom:100px;
+    
+ } */
+ .pricing  div hr{
+          height: 10px;
+    }
+    .pricing div:nth-of-type(1) hr{
+        background-color: #CC1C0D;
+        margin-bottom:0px;
+    }
+    .pricing div:nth-of-type(1) h3{
+        margin-top:10px;
+    }
+
+
+    
+    .pricing div:nth-of-type(2) hr {
+        
+        background-color: #37A4A4;
+      }
+      .pricing div:nth-of-type(2) h3{
+        margin-top:10px;
+    }
+
+     
+    .pricing div:nth-of-type(3) hr{
+        background-color:#685288;
+    }
+    .pricing div:nth-of-type(3) h3{
+        margin-top:10px;
+    }
+
+    
+    .pricing div:nth-of-type(4) hr{
+        
+        background-color:#000000;
+    }
+    .pricing div:nth-of-type(4){
+        padding-top:6px;
+    }
+    .pricing div:nth-of-type(4) h3{
+        margin-top:10px;
+    }
+
+    
+    
+
+/* PRICING PAGE */
